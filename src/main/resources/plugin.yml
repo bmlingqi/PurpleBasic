@@ -1,0 +1,21 @@
+name: PurpleBasic
+version: '${project.version}'
+main: com.bemil.purplebasic.PurpleBasic
+api-version: 1.19
+authors: [LingQi]
+description: A versatile basic plugin
+depend:
+  - ProtocolLib
+website: http://www.bemiou.cn/
+permissions:
+  PurpleBasic.*:
+    children:
+      PurpleBasic.basic: true
+  PurpleBasic.basic:
+    default: true
+    children:
+      PurpleBasic.basic.servers.go: true
+  PurpleBasic.basic.servers.list:
+    default: true
+  PurpleBasic.basic.servers.go:
+    default: true

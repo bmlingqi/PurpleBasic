@@ -1,0 +1,4 @@
+PluginLoaded: "&a插件加载完成"
+TeleportSuccess: "&a传送已完成"
+TeleportTime: "&a将在&d%time&a秒后进行传送"
+TeleportField: "&4传送失败"
